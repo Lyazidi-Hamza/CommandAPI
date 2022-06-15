@@ -4,7 +4,7 @@ namespace CommandAPI.Data
 {
     public interface ICommandAPIRepo
     {
-        
+
         bool SaveChanges();
 
         IEnumerable<Command> GetAllCommands();

@@ -2,6 +2,7 @@
 {
     public class CommandReadDto
     {
+        //to clean
         public int Id { get; set; }
         public string HowTo { get; set; }
         public string Platform { get; set; }
